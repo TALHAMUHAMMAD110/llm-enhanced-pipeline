@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+python-multipart
+pytest
+boto3
+sqlalchemy
+pymongo
+dotenv

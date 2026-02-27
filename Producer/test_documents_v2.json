@@ -1,0 +1,1894 @@
+[
+  {
+    "document_id": "1",
+    "text": "Invoice number 2295 from OfficeMart",
+    "total": "1041 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 399
+      },
+      {
+        "item": "Backpack",
+        "price": 355
+      },
+      {
+        "item": "Keyboard",
+        "price": 287
+      }
+    ],
+    "timestamp": "2026-02-14T03:28:00Z"
+  },
+  {
+    "document_id": "2",
+    "text": "Invoice number 5413 from TechWorld",
+    "total": "1229 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Backpack",
+        "price": 402
+      },
+      {
+        "item": "Keyboard",
+        "price": 494
+      },
+      {
+        "item": "Headphones",
+        "price": 333
+      }
+    ],
+    "timestamp": "2026-02-16T14:02:00Z"
+  },
+  {
+    "document_id": "3",
+    "text": "Invoice number 3799 from TechWorld",
+    "total": "435 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Laptop",
+        "price": 223
+      },
+      {
+        "item": "Backpack",
+        "price": 212
+      }
+    ],
+    "timestamp": "2026-02-03T11:00:00Z"
+  },
+  {
+    "document_id": "4",
+    "text": "Invoice number 1871 from BookPlanet",
+    "total": "312 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Backpack",
+        "price": 312
+      }
+    ],
+    "timestamp": "2026-02-20T10:09:00Z"
+  },
+  {
+    "document_id": "5",
+    "text": "Invoice number 9663 from TechWorld",
+    "total": "490 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Laptop",
+        "price": 490
+      }
+    ],
+    "timestamp": "2026-02-09T06:53:00Z"
+  },
+  {
+    "document_id": "6",
+    "text": "Invoice number 5746 from FashionStore",
+    "total": "252 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Keyboard",
+        "price": 252
+      }
+    ],
+    "timestamp": "2026-02-10T02:39:00Z"
+  },
+  {
+    "document_id": "7",
+    "text": "Invoice number 8344 from GroceryHub",
+    "total": "1017 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Monitor",
+        "price": 130
+      },
+      {
+        "item": "Headphones",
+        "price": 398
+      },
+      {
+        "item": "Mouse",
+        "price": 61
+      },
+      {
+        "item": "Backpack",
+        "price": 428
+      }
+    ],
+    "timestamp": "2026-02-10T02:25:00Z"
+  },
+  {
+    "document_id": "8",
+    "text": "Invoice number 4921 from OfficeMart",
+    "total": "489 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Coffee Machine",
+        "price": 61
+      },
+      {
+        "item": "Notebook",
+        "price": 70
+      },
+      {
+        "item": "Mouse",
+        "price": 358
+      }
+    ],
+    "timestamp": "2026-02-10T22:53:00Z"
+  },
+  {
+    "document_id": "9",
+    "text": "Invoice number 2708 from BookPlanet",
+    "total": "485 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Notebook",
+        "price": 485
+      }
+    ],
+    "timestamp": "2026-02-13T09:28:00Z"
+  },
+  {
+    "document_id": "10",
+    "text": "Invoice number 6238 from OfficeMart",
+    "total": "825 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Keyboard",
+        "price": 326
+      },
+      {
+        "item": "Pen",
+        "price": 114
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 385
+      }
+    ],
+    "timestamp": "2026-02-04T18:03:00Z"
+  },
+  {
+    "document_id": "11",
+    "text": "Invoice number 4190 from TechWorld",
+    "total": "926 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 472
+      },
+      {
+        "item": "Notebook",
+        "price": 454
+      }
+    ],
+    "timestamp": "2026-02-18T15:38:00Z"
+  },
+  {
+    "document_id": "12",
+    "text": "Invoice number 1588 from BookPlanet",
+    "total": "284 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 284
+      }
+    ],
+    "timestamp": "2026-02-16T01:54:00Z"
+  },
+  {
+    "document_id": "13",
+    "text": "Invoice number 5626 from GroceryHub",
+    "total": "525 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Coffee Machine",
+        "price": 172
+      },
+      {
+        "item": "Notebook",
+        "price": 49
+      },
+      {
+        "item": "Laptop",
+        "price": 304
+      }
+    ],
+    "timestamp": "2026-02-18T12:06:00Z"
+  },
+  {
+    "document_id": "14",
+    "text": "Invoice number 2701 from GroceryHub",
+    "total": "314 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 314
+      }
+    ],
+    "timestamp": "2026-02-13T12:05:00Z"
+  },
+  {
+    "document_id": "15",
+    "text": "Invoice number 5418 from TechWorld",
+    "total": "1439 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Notebook",
+        "price": 466
+      },
+      {
+        "item": "Laptop",
+        "price": 219
+      },
+      {
+        "item": "Chair",
+        "price": 349
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 405
+      }
+    ],
+    "timestamp": "2026-02-09T19:01:00Z"
+  },
+  {
+    "document_id": "16",
+    "text": "Invoice number 3805 from TechWorld",
+    "total": "871 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Monitor",
+        "price": 382
+      },
+      {
+        "item": "Pen",
+        "price": 489
+      }
+    ],
+    "timestamp": "2026-02-03T21:00:00Z"
+  },
+  {
+    "document_id": "17",
+    "text": "Invoice number 2265 from GroceryHub",
+    "total": "1116 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 272
+      },
+      {
+        "item": "Laptop",
+        "price": 363
+      },
+      {
+        "item": "Monitor",
+        "price": 481
+      }
+    ],
+    "timestamp": "2026-02-09T20:38:00Z"
+  },
+  {
+    "document_id": "18",
+    "text": "Invoice number 2226 from TechWorld",
+    "total": "720 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 171
+      },
+      {
+        "item": "Pen",
+        "price": 95
+      },
+      {
+        "item": "Mouse",
+        "price": 216
+      },
+      {
+        "item": "Keyboard",
+        "price": 238
+      }
+    ],
+    "timestamp": "2026-02-10T23:09:00Z"
+  },
+  {
+    "document_id": "19",
+    "text": "Invoice number 5762 from TechWorld",
+    "total": "489 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Monitor",
+        "price": 489
+      }
+    ],
+    "timestamp": "2026-02-11T03:46:00Z"
+  },
+  {
+    "document_id": "20",
+    "text": "Invoice number 1873 from FashionStore",
+    "total": "638 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 251
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 387
+      }
+    ],
+    "timestamp": "2026-02-08T12:21:00Z"
+  },
+  {
+    "document_id": "21",
+    "text": "Invoice number 4349 from BookPlanet",
+    "total": "1121 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 63
+      },
+      {
+        "item": "Backpack",
+        "price": 261
+      },
+      {
+        "item": "Monitor",
+        "price": 417
+      },
+      {
+        "item": "Notebook",
+        "price": 380
+      }
+    ],
+    "timestamp": "2026-02-08T01:26:00Z"
+  },
+  {
+    "document_id": "22",
+    "text": "Invoice number 7583 from OfficeMart",
+    "total": "855 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Backpack",
+        "price": 229
+      },
+      {
+        "item": "Monitor",
+        "price": 326
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 300
+      }
+    ],
+    "timestamp": "2026-02-16T03:04:00Z"
+  },
+  {
+    "document_id": "23",
+    "text": "Invoice number 2384 from GroceryHub",
+    "total": "95 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Backpack",
+        "price": 95
+      }
+    ],
+    "timestamp": "2026-02-08T06:53:00Z"
+  },
+  {
+    "document_id": "24",
+    "text": "Invoice number 3185 from GroceryHub",
+    "total": "325 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 29
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 296
+      }
+    ],
+    "timestamp": "2026-02-13T21:27:00Z"
+  },
+  {
+    "document_id": "25",
+    "text": "Invoice number 1520 from TechWorld",
+    "total": "1292 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 203
+      },
+      {
+        "item": "Mouse",
+        "price": 466
+      },
+      {
+        "item": "Laptop",
+        "price": 332
+      },
+      {
+        "item": "Notebook",
+        "price": 291
+      }
+    ],
+    "timestamp": "2026-02-14T04:30:00Z"
+  },
+  {
+    "document_id": "26",
+    "text": "Invoice number 3412 from OfficeMart",
+    "total": "481 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 481
+      }
+    ],
+    "timestamp": "2026-02-09T22:32:00Z"
+  },
+  {
+    "document_id": "27",
+    "text": "Invoice number 5348 from FashionStore",
+    "total": "848 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Laptop",
+        "price": 433
+      },
+      {
+        "item": "Monitor",
+        "price": 415
+      }
+    ],
+    "timestamp": "2026-02-13T04:59:00Z"
+  },
+  {
+    "document_id": "28",
+    "text": "Invoice number 4138 from OfficeMart",
+    "total": "424 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 159
+      },
+      {
+        "item": "Monitor",
+        "price": 212
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 53
+      }
+    ],
+    "timestamp": "2026-02-01T21:43:00Z"
+  },
+  {
+    "document_id": "29",
+    "text": "Invoice number 9355 from BookPlanet",
+    "total": "1358 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 146
+      },
+      {
+        "item": "Headphones",
+        "price": 385
+      },
+      {
+        "item": "Pen",
+        "price": 443
+      },
+      {
+        "item": "Chair",
+        "price": 384
+      }
+    ],
+    "timestamp": "2026-02-04T21:35:00Z"
+  },
+  {
+    "document_id": "30",
+    "text": "Invoice number 4057 from OfficeMart",
+    "total": "1121 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 22
+      },
+      {
+        "item": "Laptop",
+        "price": 465
+      },
+      {
+        "item": "Pen",
+        "price": 355
+      },
+      {
+        "item": "Keyboard",
+        "price": 279
+      }
+    ],
+    "timestamp": "2026-02-06T18:34:00Z"
+  },
+  {
+    "document_id": "31",
+    "text": "Invoice number 9324 from GroceryHub",
+    "total": "711 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Coffee Machine",
+        "price": 141
+      },
+      {
+        "item": "Pen",
+        "price": 146
+      },
+      {
+        "item": "Backpack",
+        "price": 234
+      },
+      {
+        "item": "Headphones",
+        "price": 190
+      }
+    ],
+    "timestamp": "2026-02-10T14:56:00Z"
+  },
+  {
+    "document_id": "32",
+    "text": "Invoice number 2641 from GroceryHub",
+    "total": "980 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 61
+      },
+      {
+        "item": "Laptop",
+        "price": 379
+      },
+      {
+        "item": "Pen",
+        "price": 156
+      },
+      {
+        "item": "Notebook",
+        "price": 384
+      }
+    ],
+    "timestamp": "2026-02-20T03:17:00Z"
+  },
+  {
+    "document_id": "33",
+    "text": "Invoice number 4298 from BookPlanet",
+    "total": "1121 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 169
+      },
+      {
+        "item": "Mouse",
+        "price": 380
+      },
+      {
+        "item": "Keyboard",
+        "price": 291
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 281
+      }
+    ],
+    "timestamp": "2026-02-11T17:55:00Z"
+  },
+  {
+    "document_id": "34",
+    "text": "Invoice number 6940 from FashionStore",
+    "total": "289 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 90
+      },
+      {
+        "item": "Mouse",
+        "price": 199
+      }
+    ],
+    "timestamp": "2026-02-19T23:03:00Z"
+  },
+  {
+    "document_id": "35",
+    "text": "Invoice number 2607 from OfficeMart",
+    "total": "1372 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 328
+      },
+      {
+        "item": "Monitor",
+        "price": 242
+      },
+      {
+        "item": "Notebook",
+        "price": 311
+      },
+      {
+        "item": "Keyboard",
+        "price": 491
+      }
+    ],
+    "timestamp": "2026-02-11T00:33:00Z"
+  },
+  {
+    "document_id": "36",
+    "text": "Invoice number 4967 from TechWorld",
+    "total": "1639 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Laptop",
+        "price": 474
+      },
+      {
+        "item": "Mouse",
+        "price": 397
+      },
+      {
+        "item": "Keyboard",
+        "price": 483
+      },
+      {
+        "item": "Backpack",
+        "price": 285
+      }
+    ],
+    "timestamp": "2026-02-17T13:38:00Z"
+  },
+  {
+    "document_id": "37",
+    "text": "Invoice number 5964 from FashionStore",
+    "total": "348 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Keyboard",
+        "price": 348
+      }
+    ],
+    "timestamp": "2026-02-09T07:55:00Z"
+  },
+  {
+    "document_id": "38",
+    "text": "Invoice number 3989 from FashionStore",
+    "total": "925 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Monitor",
+        "price": 268
+      },
+      {
+        "item": "Backpack",
+        "price": 161
+      },
+      {
+        "item": "Mouse",
+        "price": 112
+      },
+      {
+        "item": "Notebook",
+        "price": 384
+      }
+    ],
+    "timestamp": "2026-02-13T00:55:00Z"
+  },
+  {
+    "document_id": "39",
+    "text": "Invoice number 1980 from FashionStore",
+    "total": "898 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Laptop",
+        "price": 367
+      },
+      {
+        "item": "Notebook",
+        "price": 87
+      },
+      {
+        "item": "Backpack",
+        "price": 444
+      }
+    ],
+    "timestamp": "2026-02-11T03:41:00Z"
+  },
+  {
+    "document_id": "40",
+    "text": "Invoice number 6527 from TechWorld",
+    "total": "555 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Laptop",
+        "price": 333
+      },
+      {
+        "item": "Chair",
+        "price": 181
+      },
+      {
+        "item": "Headphones",
+        "price": 41
+      }
+    ],
+    "timestamp": "2026-02-18T18:02:00Z"
+  },
+  {
+    "document_id": "41",
+    "text": "Invoice number 5176 from BookPlanet",
+    "total": "908 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 179
+      },
+      {
+        "item": "Pen",
+        "price": 274
+      },
+      {
+        "item": "Backpack",
+        "price": 455
+      }
+    ],
+    "timestamp": "2026-02-02T15:14:00Z"
+  },
+  {
+    "document_id": "42",
+    "text": "Invoice number 8697 from GroceryHub",
+    "total": "1414 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Coffee Machine",
+        "price": 193
+      },
+      {
+        "item": "Keyboard",
+        "price": 397
+      },
+      {
+        "item": "Chair",
+        "price": 362
+      },
+      {
+        "item": "Headphones",
+        "price": 462
+      }
+    ],
+    "timestamp": "2026-02-14T09:42:00Z"
+  },
+  {
+    "document_id": "43",
+    "text": "Invoice number 1765 from OfficeMart",
+    "total": "1039 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 495
+      },
+      {
+        "item": "Backpack",
+        "price": 244
+      },
+      {
+        "item": "Mouse",
+        "price": 300
+      }
+    ],
+    "timestamp": "2026-02-07T06:13:00Z"
+  },
+  {
+    "document_id": "44",
+    "text": "Invoice number 9808 from BookPlanet",
+    "total": "654 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 131
+      },
+      {
+        "item": "Laptop",
+        "price": 488
+      },
+      {
+        "item": "Chair",
+        "price": 35
+      }
+    ],
+    "timestamp": "2026-02-09T04:52:00Z"
+  },
+  {
+    "document_id": "45",
+    "text": "Invoice number 5665 from FashionStore",
+    "total": "444 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Coffee Machine",
+        "price": 198
+      },
+      {
+        "item": "Monitor",
+        "price": 153
+      },
+      {
+        "item": "Mouse",
+        "price": 93
+      }
+    ],
+    "timestamp": "2026-02-06T22:44:00Z"
+  },
+  {
+    "document_id": "46",
+    "text": "Invoice number 9873 from BookPlanet",
+    "total": "747 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 264
+      },
+      {
+        "item": "Notebook",
+        "price": 483
+      }
+    ],
+    "timestamp": "2026-02-02T18:19:00Z"
+  },
+  {
+    "document_id": "47",
+    "text": "Invoice number 5766 from OfficeMart",
+    "total": "410 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 410
+      }
+    ],
+    "timestamp": "2026-02-10T00:05:00Z"
+  },
+  {
+    "document_id": "48",
+    "text": "Invoice number 7962 from GroceryHub",
+    "total": "734 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 401
+      },
+      {
+        "item": "Notebook",
+        "price": 294
+      },
+      {
+        "item": "Laptop",
+        "price": 39
+      }
+    ],
+    "timestamp": "2026-02-11T02:21:00Z"
+  },
+  {
+    "document_id": "49",
+    "text": "Invoice number 4221 from FashionStore",
+    "total": "597 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 140
+      },
+      {
+        "item": "Chair",
+        "price": 137
+      },
+      {
+        "item": "Keyboard",
+        "price": 320
+      }
+    ],
+    "timestamp": "2026-02-13T17:11:00Z"
+  },
+  {
+    "document_id": "50",
+    "text": "Invoice number 4034 from FashionStore",
+    "total": "929 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 442
+      },
+      {
+        "item": "Notebook",
+        "price": 487
+      }
+    ],
+    "timestamp": "2026-02-11T02:46:00Z"
+  },
+  {
+    "document_id": "51",
+    "text": "Invoice number 1099 from BookPlanet",
+    "total": "148 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Notebook",
+        "price": 148
+      }
+    ],
+    "timestamp": "2026-02-10T16:03:00Z"
+  },
+  {
+    "document_id": "52",
+    "text": "Invoice number 8289 from TechWorld",
+    "total": "621 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Notebook",
+        "price": 287
+      },
+      {
+        "item": "Pen",
+        "price": 334
+      }
+    ],
+    "timestamp": "2026-02-05T22:47:00Z"
+  },
+  {
+    "document_id": "53",
+    "text": "Invoice number 2907 from GroceryHub",
+    "total": "403 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 403
+      }
+    ],
+    "timestamp": "2026-02-20T08:10:00Z"
+  },
+  {
+    "document_id": "54",
+    "text": "Invoice number 1807 from TechWorld",
+    "total": "1422 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 456
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 410
+      },
+      {
+        "item": "Headphones",
+        "price": 56
+      },
+      {
+        "item": "Backpack",
+        "price": 500
+      }
+    ],
+    "timestamp": "2026-02-08T09:39:00Z"
+  },
+  {
+    "document_id": "55",
+    "text": "Invoice number 4094 from TechWorld",
+    "total": "1002 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 354
+      },
+      {
+        "item": "Notebook",
+        "price": 23
+      },
+      {
+        "item": "Chair",
+        "price": 432
+      },
+      {
+        "item": "Laptop",
+        "price": 193
+      }
+    ],
+    "timestamp": "2026-02-13T23:44:00Z"
+  },
+  {
+    "document_id": "56",
+    "text": "Invoice number 3753 from BookPlanet",
+    "total": "182 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Laptop",
+        "price": 182
+      }
+    ],
+    "timestamp": "2026-02-07T05:38:00Z"
+  },
+  {
+    "document_id": "57",
+    "text": "Invoice number 5829 from GroceryHub",
+    "total": "950 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Monitor",
+        "price": 243
+      },
+      {
+        "item": "Headphones",
+        "price": 424
+      },
+      {
+        "item": "Mouse",
+        "price": 283
+      }
+    ],
+    "timestamp": "2026-02-01T11:11:00Z"
+  },
+  {
+    "document_id": "58",
+    "text": "Invoice number 4653 from GroceryHub",
+    "total": "433 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 433
+      }
+    ],
+    "timestamp": "2026-02-20T12:15:00Z"
+  },
+  {
+    "document_id": "59",
+    "text": "Invoice number 5640 from FashionStore",
+    "total": "1004 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 278
+      },
+      {
+        "item": "Mouse",
+        "price": 398
+      },
+      {
+        "item": "Monitor",
+        "price": 328
+      }
+    ],
+    "timestamp": "2026-02-09T09:48:00Z"
+  },
+  {
+    "document_id": "60",
+    "text": "Invoice number 2748 from BookPlanet",
+    "total": "201 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Notebook",
+        "price": 201
+      }
+    ],
+    "timestamp": "2026-02-18T04:57:00Z"
+  },
+  {
+    "document_id": "61",
+    "text": "Invoice number 4490 from GroceryHub",
+    "total": "196 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Backpack",
+        "price": 196
+      }
+    ],
+    "timestamp": "2026-02-13T20:09:00Z"
+  },
+  {
+    "document_id": "62",
+    "text": "Invoice number 8226 from OfficeMart",
+    "total": "763 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Monitor",
+        "price": 326
+      },
+      {
+        "item": "Laptop",
+        "price": 437
+      }
+    ],
+    "timestamp": "2026-02-13T01:19:00Z"
+  },
+  {
+    "document_id": "63",
+    "text": "Invoice number 8302 from OfficeMart",
+    "total": "1040 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Backpack",
+        "price": 303
+      },
+      {
+        "item": "Mouse",
+        "price": 79
+      },
+      {
+        "item": "Headphones",
+        "price": 279
+      },
+      {
+        "item": "Notebook",
+        "price": 379
+      }
+    ],
+    "timestamp": "2026-02-20T09:19:00Z"
+  },
+  {
+    "document_id": "64",
+    "text": "Invoice number 8329 from BookPlanet",
+    "total": "343 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 150
+      },
+      {
+        "item": "Pen",
+        "price": 41
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 152
+      }
+    ],
+    "timestamp": "2026-02-17T20:53:00Z"
+  },
+  {
+    "document_id": "65",
+    "text": "Invoice number 3935 from TechWorld",
+    "total": "215 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Coffee Machine",
+        "price": 215
+      }
+    ],
+    "timestamp": "2026-02-07T18:00:00Z"
+  },
+  {
+    "document_id": "66",
+    "text": "Invoice number 4685 from BookPlanet",
+    "total": "460 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 460
+      }
+    ],
+    "timestamp": "2026-02-19T15:51:00Z"
+  },
+  {
+    "document_id": "67",
+    "text": "Invoice number 1664 from GroceryHub",
+    "total": "1228 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 495
+      },
+      {
+        "item": "Headphones",
+        "price": 108
+      },
+      {
+        "item": "Notebook",
+        "price": 156
+      },
+      {
+        "item": "Keyboard",
+        "price": 469
+      }
+    ],
+    "timestamp": "2026-02-18T20:49:00Z"
+  },
+  {
+    "document_id": "68",
+    "text": "Invoice number 1775 from TechWorld",
+    "total": "468 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Keyboard",
+        "price": 245
+      },
+      {
+        "item": "Headphones",
+        "price": 223
+      }
+    ],
+    "timestamp": "2026-02-16T02:50:00Z"
+  },
+  {
+    "document_id": "69",
+    "text": "Invoice number 3628 from GroceryHub",
+    "total": "933 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 257
+      },
+      {
+        "item": "Mouse",
+        "price": 266
+      },
+      {
+        "item": "Backpack",
+        "price": 410
+      }
+    ],
+    "timestamp": "2026-02-08T13:45:00Z"
+  },
+  {
+    "document_id": "70",
+    "text": "Invoice number 6963 from TechWorld",
+    "total": "48 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Coffee Machine",
+        "price": 48
+      }
+    ],
+    "timestamp": "2026-02-15T02:53:00Z"
+  },
+  {
+    "document_id": "71",
+    "text": "Invoice number 2700 from BookPlanet",
+    "total": "791 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 314
+      },
+      {
+        "item": "Monitor",
+        "price": 477
+      }
+    ],
+    "timestamp": "2026-02-05T09:20:00Z"
+  },
+  {
+    "document_id": "72",
+    "text": "Invoice number 6444 from FashionStore",
+    "total": "165 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Monitor",
+        "price": 165
+      }
+    ],
+    "timestamp": "2026-02-07T04:42:00Z"
+  },
+  {
+    "document_id": "73",
+    "text": "Invoice number 5882 from GroceryHub",
+    "total": "66 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 66
+      }
+    ],
+    "timestamp": "2026-02-14T11:39:00Z"
+  },
+  {
+    "document_id": "74",
+    "text": "Invoice number 7520 from FashionStore",
+    "total": "758 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Notebook",
+        "price": 176
+      },
+      {
+        "item": "Chair",
+        "price": 246
+      },
+      {
+        "item": "Headphones",
+        "price": 22
+      },
+      {
+        "item": "Laptop",
+        "price": 314
+      }
+    ],
+    "timestamp": "2026-02-03T00:38:00Z"
+  },
+  {
+    "document_id": "75",
+    "text": "Invoice number 8757 from TechWorld",
+    "total": "1130 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Keyboard",
+        "price": 423
+      },
+      {
+        "item": "Pen",
+        "price": 488
+      },
+      {
+        "item": "Chair",
+        "price": 219
+      }
+    ],
+    "timestamp": "2026-02-01T12:01:00Z"
+  },
+  {
+    "document_id": "76",
+    "text": "Invoice number 7825 from FashionStore",
+    "total": "61 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Backpack",
+        "price": 39
+      },
+      {
+        "item": "Notebook",
+        "price": 22
+      }
+    ],
+    "timestamp": "2026-02-09T11:01:00Z"
+  },
+  {
+    "document_id": "77",
+    "text": "Invoice number 5418 from GroceryHub",
+    "total": "664 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 295
+      },
+      {
+        "item": "Laptop",
+        "price": 369
+      }
+    ],
+    "timestamp": "2026-02-04T19:52:00Z"
+  },
+  {
+    "document_id": "78",
+    "text": "Invoice number 6474 from FashionStore",
+    "total": "199 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Keyboard",
+        "price": 199
+      }
+    ],
+    "timestamp": "2026-02-01T09:58:00Z"
+  },
+  {
+    "document_id": "79",
+    "text": "Invoice number 1473 from FashionStore",
+    "total": "202 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 202
+      }
+    ],
+    "timestamp": "2026-02-04T17:46:00Z"
+  },
+  {
+    "document_id": "80",
+    "text": "Invoice number 8103 from GroceryHub",
+    "total": "453 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Laptop",
+        "price": 250
+      },
+      {
+        "item": "Headphones",
+        "price": 98
+      },
+      {
+        "item": "Keyboard",
+        "price": 105
+      }
+    ],
+    "timestamp": "2026-02-03T05:31:00Z"
+  },
+  {
+    "document_id": "81",
+    "text": "Invoice number 5550 from FashionStore",
+    "total": "517 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 487
+      },
+      {
+        "item": "Notebook",
+        "price": 30
+      }
+    ],
+    "timestamp": "2026-02-16T16:46:00Z"
+  },
+  {
+    "document_id": "82",
+    "text": "Invoice number 2895 from OfficeMart",
+    "total": "704 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 31
+      },
+      {
+        "item": "Keyboard",
+        "price": 478
+      },
+      {
+        "item": "Backpack",
+        "price": 35
+      },
+      {
+        "item": "Headphones",
+        "price": 160
+      }
+    ],
+    "timestamp": "2026-02-16T22:30:00Z"
+  },
+  {
+    "document_id": "83",
+    "text": "Invoice number 6745 from TechWorld",
+    "total": "934 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Notebook",
+        "price": 190
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 424
+      },
+      {
+        "item": "Laptop",
+        "price": 320
+      }
+    ],
+    "timestamp": "2026-02-07T19:07:00Z"
+  },
+  {
+    "document_id": "84",
+    "text": "Invoice number 1320 from BookPlanet",
+    "total": "440 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Keyboard",
+        "price": 440
+      }
+    ],
+    "timestamp": "2026-02-16T08:40:00Z"
+  },
+  {
+    "document_id": "85",
+    "text": "Invoice number 8191 from BookPlanet",
+    "total": "1766 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 445
+      },
+      {
+        "item": "Laptop",
+        "price": 451
+      },
+      {
+        "item": "Monitor",
+        "price": 392
+      },
+      {
+        "item": "Keyboard",
+        "price": 478
+      }
+    ],
+    "timestamp": "2026-02-18T10:20:00Z"
+  },
+  {
+    "document_id": "86",
+    "text": "Invoice number 5342 from GroceryHub",
+    "total": "171 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Coffee Machine",
+        "price": 171
+      }
+    ],
+    "timestamp": "2026-02-04T23:25:00Z"
+  },
+  {
+    "document_id": "87",
+    "text": "Invoice number 6018 from FashionStore",
+    "total": "474 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 404
+      },
+      {
+        "item": "Monitor",
+        "price": 70
+      }
+    ],
+    "timestamp": "2026-02-12T21:18:00Z"
+  },
+  {
+    "document_id": "88",
+    "text": "Invoice number 4820 from GroceryHub",
+    "total": "244 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 244
+      }
+    ],
+    "timestamp": "2026-02-15T05:14:00Z"
+  },
+  {
+    "document_id": "89",
+    "text": "Invoice number 6589 from GroceryHub",
+    "total": "747 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 296
+      },
+      {
+        "item": "Pen",
+        "price": 451
+      }
+    ],
+    "timestamp": "2026-02-08T01:21:00Z"
+  },
+  {
+    "document_id": "90",
+    "text": "Invoice number 8677 from BookPlanet",
+    "total": "1001 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 314
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 73
+      },
+      {
+        "item": "Pen",
+        "price": 277
+      },
+      {
+        "item": "Keyboard",
+        "price": 337
+      }
+    ],
+    "timestamp": "2026-02-12T17:28:00Z"
+  },
+  {
+    "document_id": "91",
+    "text": "Invoice number 3148 from OfficeMart",
+    "total": "750 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 329
+      },
+      {
+        "item": "Laptop",
+        "price": 191
+      },
+      {
+        "item": "Backpack",
+        "price": 81
+      },
+      {
+        "item": "Coffee Machine",
+        "price": 149
+      }
+    ],
+    "timestamp": "2026-02-20T18:07:00Z"
+  },
+  {
+    "document_id": "92",
+    "text": "Invoice number 2402 from FashionStore",
+    "total": "1208 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Notebook",
+        "price": 394
+      },
+      {
+        "item": "Keyboard",
+        "price": 334
+      },
+      {
+        "item": "Headphones",
+        "price": 304
+      },
+      {
+        "item": "Backpack",
+        "price": 176
+      }
+    ],
+    "timestamp": "2026-02-17T23:13:00Z"
+  },
+  {
+    "document_id": "93",
+    "text": "Invoice number 4880 from FashionStore",
+    "total": "223 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Headphones",
+        "price": 223
+      }
+    ],
+    "timestamp": "2026-02-16T23:55:00Z"
+  },
+  {
+    "document_id": "94",
+    "text": "Invoice number 4302 from GroceryHub",
+    "total": "1261 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Mouse",
+        "price": 434
+      },
+      {
+        "item": "Keyboard",
+        "price": 442
+      },
+      {
+        "item": "Monitor",
+        "price": 385
+      }
+    ],
+    "timestamp": "2026-02-19T21:21:00Z"
+  },
+  {
+    "document_id": "95",
+    "text": "Invoice number 1317 from TechWorld",
+    "total": "535 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Keyboard",
+        "price": 165
+      },
+      {
+        "item": "Chair",
+        "price": 224
+      },
+      {
+        "item": "Notebook",
+        "price": 146
+      }
+    ],
+    "timestamp": "2026-02-16T15:00:00Z"
+  },
+  {
+    "document_id": "96",
+    "text": "Invoice number 2036 from FashionStore",
+    "total": "544 EUR",
+    "shop": "FashionStore",
+    "purchase": [
+      {
+        "item": "Pen",
+        "price": 428
+      },
+      {
+        "item": "Keyboard",
+        "price": 116
+      }
+    ],
+    "timestamp": "2026-02-01T09:59:00Z"
+  },
+  {
+    "document_id": "97",
+    "text": "Invoice number 6698 from GroceryHub",
+    "total": "523 EUR",
+    "shop": "GroceryHub",
+    "purchase": [
+      {
+        "item": "Notebook",
+        "price": 330
+      },
+      {
+        "item": "Pen",
+        "price": 193
+      }
+    ],
+    "timestamp": "2026-02-12T23:33:00Z"
+  },
+  {
+    "document_id": "98",
+    "text": "Invoice number 6500 from OfficeMart",
+    "total": "962 EUR",
+    "shop": "OfficeMart",
+    "purchase": [
+      {
+        "item": "Coffee Machine",
+        "price": 93
+      },
+      {
+        "item": "Keyboard",
+        "price": 437
+      },
+      {
+        "item": "Notebook",
+        "price": 49
+      },
+      {
+        "item": "Headphones",
+        "price": 383
+      }
+    ],
+    "timestamp": "2026-02-15T03:34:00Z"
+  },
+  {
+    "document_id": "99",
+    "text": "Invoice number 4309 from BookPlanet",
+    "total": "894 EUR",
+    "shop": "BookPlanet",
+    "purchase": [
+      {
+        "item": "Keyboard",
+        "price": 304
+      },
+      {
+        "item": "Mouse",
+        "price": 149
+      },
+      {
+        "item": "Headphones",
+        "price": 381
+      },
+      {
+        "item": "Notebook",
+        "price": 60
+      }
+    ],
+    "timestamp": "2026-02-20T06:38:00Z"
+  },
+  {
+    "document_id": "100",
+    "text": "Invoice number 1146 from TechWorld",
+    "total": "175 EUR",
+    "shop": "TechWorld",
+    "purchase": [
+      {
+        "item": "Chair",
+        "price": 175
+      }
+    ],
+    "timestamp": "2026-02-14T19:58:00Z"
+  }
+]
