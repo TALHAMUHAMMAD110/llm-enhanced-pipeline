@@ -1,4 +1,4 @@
-# LLM-Enhanced Text Processing Pipelin
+# LLM-Enhanced Text Processing Pipeline
 
 LLM-Enhanced Text Processing Pipeline with
 Production Hardening and Monitoring **S3** , **lambda**,**Postgres**, **Mongo** , **FastAPI** and **Grafana**.
