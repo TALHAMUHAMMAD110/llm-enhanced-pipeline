@@ -7,3 +7,6 @@ boto3
 sqlalchemy
 pymongo
 dotenv
+asyncpg
+psycopg2
+google-genai
