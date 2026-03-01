@@ -44,7 +44,7 @@ services:
       /bin/sh -c "
       mc alias set minio http://minio:9000 minioadmin minioadmin;
       mc mb minio/input-bucket --ignore-existing;
-      mc mb minio/output-bucket --ignore-existing;
+      mc mb minio/docs-bucket --ignore-existing;
       mc mb minio/raw-data --ignore-existing;
       mc mb minio/processed-data --ignore-existing;
       echo 'Buckets created successfully';

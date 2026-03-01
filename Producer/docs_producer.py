@@ -22,7 +22,7 @@ minio_client = boto3.client(
 def generating_json_docs():
 
     input_bucket = os.getenv("INPUT_BUCKET", "input-bucket")
-    output_bucket = os.getenv("OUTPUT_BUCKET", "output-bucket")
+    output_bucket = os.getenv("OUTPUT_BUCKET", "docs-bucket")
     source_file = os.getenv("SOURCE_FILE_NAME", "test_documents_v2.json")
 
     offset = 3
@@ -67,7 +67,7 @@ def generating_json_docs():
             print(
                 f"JSON doc file successfully written to '{output_bucket}/{output_filename}'\n"
             )
-            time.sleep(random.randint(3,10)) 
+            time.sleep(random.randint(3, 10))
 
     except KeyboardInterrupt:
         print("\nStopping docs publisher.")

@@ -9,7 +9,7 @@ This project ingests the json docs file from MINIO processed them and did LLM ch
 
 **Features:**
 
-- Reads json docs from MINIO bucket: `output-bucket`
+- Reads json docs from MINIO bucket: `docs-bucket`
 - Computes the latest docs in bucket **IN BATCH**
 - Processed the docs and do llm check for text matching
 - Writes monitoring results to PostgresDB: `monitoring table`

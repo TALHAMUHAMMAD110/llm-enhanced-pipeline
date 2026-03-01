@@ -34,9 +34,9 @@ def load_processed_data_to_mongo(processed_doc):
 
 
 def processing_files_and_loading():
-    input_bucket = os.getenv("INPUT_BUCKET", "output-bucket")
+    input_bucket = os.getenv("INPUT_BUCKET", "docs-bucket")
     files_names = extracting_files_from_bucket()
-    
+
     flattened_df_list = []
     df_list_monitoring = []
 
@@ -77,4 +77,4 @@ if __name__ == "__main__":
     while True:
         print("Checking for new files to process...")
         processing_files_and_loading()
-        time.sleep(10)  
+        time.sleep(10)

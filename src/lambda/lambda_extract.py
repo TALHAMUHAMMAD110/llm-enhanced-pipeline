@@ -2,11 +2,11 @@ from client import minio_client
 import os
 from helper import calculate_seconds_since_last_modified
 
-BATCH_TIME_SECONDS = 10  
+BATCH_TIME_SECONDS = 10
 
 
 def extracting_files_from_bucket():
-    input_bucket = os.getenv("INPUT_BUCKET", "output-bucket")
+    input_bucket = os.getenv("INPUT_BUCKET", "docs-bucket")
     files_names = []
     try:
         response = minio_client().list_objects_v2(Bucket=input_bucket)
