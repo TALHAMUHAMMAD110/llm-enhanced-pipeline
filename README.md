@@ -33,7 +33,7 @@ PostgresDB: Database use to store processed and cleaned data for processing and 
 ## Prepare your development environment
 
 - Install Docker in your local machine
-- Run docs_producer.py
+- Run docker-compose.yml for up the containers
 
 Go to the current project directory and run the following command in your terminal.
 
