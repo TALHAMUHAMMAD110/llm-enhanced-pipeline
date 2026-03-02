@@ -9,6 +9,7 @@ from lambda_transform import (
     flattened_doc,
 )
 
+
 # Sample input document fixture
 @pytest.fixture
 def sample_doc():
@@ -28,6 +29,7 @@ def sample_doc():
 # ----------------------------
 # processed_doc tests
 # ----------------------------
+
 
 @patch("lambda_transform.fetching_numbers_from_text")
 def test_processed_doc_success(mock_fetch, sample_doc):
@@ -68,6 +70,7 @@ def test_processed_doc_invalid_document_id(mock_fetch, sample_doc):
 # ----------------------------
 # llm_processing tests
 # ----------------------------
+
 
 @patch("lambda_transform.text_cosine_similarity")
 def test_llm_processing_review_required(mock_similarity):
@@ -110,6 +113,7 @@ def test_llm_processing_no_review_required(mock_similarity):
 # process_monitoring_doc tests
 # ----------------------------
 
+
 @patch("lambda_transform.current_timestamp")
 def test_process_monitoring_doc(mock_timestamp):
 
@@ -139,6 +143,7 @@ def test_process_monitoring_doc(mock_timestamp):
 # ----------------------------
 # flattened_doc tests
 # ----------------------------
+
 
 def test_flattened_doc_success():
 

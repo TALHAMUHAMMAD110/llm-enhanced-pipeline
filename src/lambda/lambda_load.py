@@ -13,6 +13,11 @@ from lambda_transform import (
     flattened_doc,
 )
 
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+
 
 def load_data_to_postgres(df, table_name):
     engine = postgres_client()
@@ -22,7 +27,7 @@ def load_data_to_postgres(df, table_name):
         if_exists="append",
         index=False,
     )
-    print(f"Data saved to PostgreSQL table '{table_name}' with shape {df.shape}")
+    logging.info(f"Data saved to PostgreSQL table '{table_name}' with shape {df.shape}")
 
 
 def load_processed_data_to_mongo(processed_doc):
@@ -30,7 +35,9 @@ def load_processed_data_to_mongo(processed_doc):
     db = mongo_engine[MONGO_DB]
     collection = db[MONGO_COLLECTION]
     collection.insert_one(processed_doc)
-    print(f"Inserted processed document ID {processed_doc['document_id']} into MongoDB")
+    logging.info(
+        f"Inserted processed document ID {processed_doc['document_id']} into MongoDB"
+    )
 
 
 def processing_files_and_loading():
@@ -41,40 +48,40 @@ def processing_files_and_loading():
     df_list_monitoring = []
 
     for file_name in files_names:
-        docs = reading_files_from_bucket(input_bucket, file_name)
-        print(f"Processing file: {file_name} with {len(docs)} documents")
+        try:
+            docs = reading_files_from_bucket(input_bucket, file_name)
+            logging.info(f"Processing file: {file_name} with {len(docs)} documents")
 
-        for doc in docs:
-            processed = processed_doc(doc)
-            flattened = flattened_doc(processed)
-            llm_processed = llm_processing(processed)
-            monitoring_doc = process_monitoring_doc(llm_processed, len(files_names))
-            df_list_monitoring.append(monitoring_doc)
-            flattened_df_list.extend(flattened)
+            for doc in docs:
+                processed = processed_doc(doc)
+                flattened = flattened_doc(processed)
+                llm_processed = llm_processing(processed)
+                monitoring_doc = process_monitoring_doc(llm_processed, len(files_names))
+                df_list_monitoring.append(monitoring_doc)
+                flattened_df_list.extend(flattened)
 
-            load_processed_data_to_mongo(processed)
-            print(f"Successfully processed document ID: {processed['document_id']}")
+                load_processed_data_to_mongo(processed)
+                logging.info(
+                    f"Successfully processed document ID: {processed['document_id']}"
+                )
+        except Exception as e:
+            logging.error(f"Error processing file '{file_name}': {e}")
 
     if len(flattened_df_list) > 0:
         flattened_df = pd.DataFrame(flattened_df_list)
         flattened_df = flattened_df.sort_values(by=["document_id"])
         load_data_to_postgres(flattened_df, "sales")
-        print(
-            f"sales documents laod to database with shape with {flattened_df.shape[0]} rows"
+        logging.info(
+            f"sales documents loaded to database with shape {flattened_df.shape[0]} rows"
         )
     else:
-        print("No sales documents processed or load to database...")
+        logging.warning("No sales documents processed or loaded to database...")
 
     if len(df_list_monitoring) > 0:
         monitoring_df = pd.DataFrame(df_list_monitoring)
         monitoring_df = monitoring_df.sort_values(by=["document_id"])
         load_data_to_postgres(monitoring_df, "monitoring")
     else:
-        print("No monitoring documents processed or load to database...")
+        logging.warning("No monitoring documents processed or loaded to database...")
 
-
-if __name__ == "__main__":
-    while True:
-        print("Checking for new files to process...")
-        processing_files_and_loading()
-        time.sleep(10)
+    return len(flattened_df_list)

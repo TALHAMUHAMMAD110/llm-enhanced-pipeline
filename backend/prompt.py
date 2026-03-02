@@ -1,7 +1,5 @@
-from schema import sales_schema
-
 def query_prompt(user_query: str) -> str:
-    
+
     prompt = f"""
     You are an expert PostgreSQL developer. Your task is to translate a user's business logic into a precise and executable PostgreSQL query based on the provided database schema.
     
@@ -29,5 +27,5 @@ def query_prompt(user_query: str) -> str:
 
     **Generated PostgreSQL Query:**
     """
-    
+
     return prompt

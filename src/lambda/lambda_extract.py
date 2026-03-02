@@ -1,6 +1,10 @@
 from client import minio_client
 import os
 from helper import calculate_seconds_since_last_modified
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
 
 BATCH_TIME_SECONDS = 10
 
@@ -10,7 +14,7 @@ def extracting_files_from_bucket():
     files_names = []
     try:
         response = minio_client().list_objects_v2(Bucket=input_bucket)
-        print(f"Files in '{input_bucket}' bucket:")
+        logging.info(f"Files in '{input_bucket}' bucket:")
         for obj in response.get("Contents", []):
             if (
                 obj["Key"].endswith(".json")
@@ -21,9 +25,9 @@ def extracting_files_from_bucket():
             ):
                 files_names.append(obj["Key"])
 
-        print(f" {len(files_names)} new docs extracted for processing")
+        logging.info(f" {len(files_names)} new docs extracted for processing")
 
     except Exception as e:
-        print(f"Error listing objects from MinIO: {e}")
+        logging.error(f"Error listing objects from MinIO: {e}")
 
     return files_names
