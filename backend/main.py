@@ -5,6 +5,10 @@ from db import get_db
 from google import genai
 import os
 from prompt import query_prompt
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 app = FastAPI()
@@ -27,9 +31,7 @@ async def generate_query(
     db: AsyncSession = Depends(get_db),
 ):
 
-    client = genai.Client(
-        api_key=os.getenv("GOOGLE_API_KEY", "AIzaSyB1vTAK6zwsNmh776wa6z7wEMTbC5iFUmI")
-    )
+    client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
 
     response = client.models.generate_content(
         model="gemini-2.5-flash",
